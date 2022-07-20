@@ -1,0 +1,118 @@
+// sass --watch file.scss desired.css
+// do in same dir as files
+$primary-1: #300350;
+$primary-2: #94167F;
+$primary-3:#E93479;
+$primary-4:#F9AC53;
+$primary-5: #F62E97;
+$primary-6: #153CB4;
+$primary-7: #65B8BF;
+$primary-8: #66a1d2;
+$primary-9: #455f65;
+$primary-10: #dcd5d5;
+$primary-11: #b4a6a6;  
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+html {
+    background-color: $primary-6;
+}
+
+
+
+body {
+    background-image: linear-gradient(0deg, $primary-4, $primary-2, $primary-1);
+    min-height: 100vh;
+}
+.navbar.navbar-expand-sm {
+    background-color: $primary-9;
+}
+
+#bar {
+    box-shadow: 8px 8px $primary-5;
+    background-color: $primary-7;
+}
+    .navButton {
+        border-radius: 0px 80px;
+        background-color: $primary-10;
+        color: $primary-6;
+        font-family:monospace;
+        border-style: inset;
+        border-color: $primary-10;
+        border-width: 4px;
+        padding: 2px 5px;
+
+        margin-right: auto;
+    }
+        .link {
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+        }
+    
+
+.nav-item.dropdown {
+    background-color: $primary-4;
+    color: $primary-1;
+    font-style: oblique;
+}
+ 
+    
+    
+
+#album {
+        border-radius: 45%;
+        max-height: 150px;
+        max-width: 150px;
+    }
+    
+
+
+
+.menuButton {
+                                    /* colors stacked, 1st is top, last is botton */
+    background-image: radial-gradient( circle,$primary-7, $primary-8, $primary-6);
+    border-radius: 55%;
+    border-style: groove;
+    border-color: #F9AC53;
+}
+
+h1 {
+    color: $primary-4;
+    font-style: oblique;
+
+}
+
+h4 {
+    color:$primary-10;
+    font-family: monospace;
+}
+
+section h4 {
+    color: black;
+}
+
+h3 {
+    background-color: $primary-11;
+}
+
+#altP {
+    color:$primary-4;
+}
+#navie {
+    background-color: $primary-9;
+}
+
+.col-sm-3.p-3.odd {
+    background-color: $primary-11;
+}
+
+
+.col-sm-3.p-3.even {
+    background-color: $primary-10;
+}
+
+.d-block {
+    height:25%;
+    width: 25%;
+}
