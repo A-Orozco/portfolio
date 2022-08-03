@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!--
+    nav: 
+        5 menus, 1 drop down sub menu
+            sub menu with contact page with forms and map
+    3 different layouts
+    3 different headings
+    caroisel
+    self pic and 1 video
+    1 list
+-->
+
+<html>
+    <%- include('layouts/head.ejs') %>
+
+    <body>
+        
+        <%- include('layouts/header.ejs') %>
+        
+       <!-- responsive container for page content--> 
+      <div class="container-fluid">
+        
+        <!--Section-->
+        <div class="row">
+
+            <div class="col-sm-3 p-3 ">
+                <!--image container-->
+                <div class="flex-shrink-0">
+                    <img src="img/workday.jpg" class="img-fluid jobIMG">
+                </div>
+                <!--job and title container-->
+                <div class="flex-grow-1 ms-3">
+                    <h3>MES <small class="text-muted"><i>Electrician Apprentice</i></small></h3>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Implement electircal runs and install devices according to blueprints</li>
+                    <li class="list-group-item">Inspect completed work to ensure code compliance.</li>
+                    <li class="list-group-item">Troubleshoot electrical issues.</li>
+                    <li class="list-group-item">Train new apprentices in essential Electrician skills</li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 p-3 ">
+                <!--image container-->
+                <div class="flex-shrink-0">
+                    <img src="img/peter-wendt--r5KSMkyoSc-unsplash.jpg" class="img-fluid jobIMG">
+                </div>
+                <!--job and title container-->
+                <div class="flex-grow-1 ms-3">
+                    <h3>HEB <small class="text-muted"><i>Produce Partner</i></small></h3>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Ensure only fresh product is available</li>
+                    <li class="list-group-item">Customer Engagement</li>
+                    <li class="list-group-item">Inventory management</li>
+                   
+                </ul>
+            </div>
+
+
+        </div>
+      
+                
+        
+      
+    
+    
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

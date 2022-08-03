@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!--
+    nav: 
+        5 menus, 1 drop down sub menu
+            sub menu with contact page with forms and map
+    3 different layouts
+    3 different headings
+    caroisel
+    self pic and 1 video
+    1 list
+-->
+
+<html>
+    <%- include('layouts/head.ejs') %>
+
+
+    <body>
+        <%- include('layouts/header.ejs') %>
+
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 p-3 odd">
+                    <img  src="img/20220719_120232.jpg"class="img-fluid">
+                    <h3>Nature</h3>
+                    <aritcle>
+                        There is no greater beauty, inspiration or proof of Divine grace, than nature.
+                        From the ever changing fresco in the sky, to the most vile bottom feeder, natue's beauty multifaceted.  
+                        It is our responsibility to use the ingenuity we have been graced with, to take care of nature.
+                    </aritcle>
+
+                </div>
+
+                <div class="col-sm-3 p-3 even">
+                    <img src="img/johannes-plenio-RWytwNueNng-unsplash.jpg" class="img-fluid">
+                    <h3>Music</h3>
+                    <article>
+                        Everyone has some creative pursuit.  Mine is music.  Harmony and rhythm is what 
+                        animates my spirit.  I also am familiar with multiple instruments.
+                        
+                        <section>
+                            
+                            
+                            <h4>Flute</h4>
+                            <p>Portable, ancient in design and ethereal.  Emulating the sweet song of the songbird
+                                and the mournful howls of the wind.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h4>Piano</h4>
+                            <p>With 88 tones at my fingertips, I enjoy piecing together complex harmonies.
+                            </p>
+                        </section>
+                    </article>
+                </div>
+
+                <div class="col-sm-3 p-3 odd">
+                    <img src="img/carnitas.jpg" class="img-fluid">
+                    <h3>Cooking</h3>
+                    <aritcle>
+                        Food is never really "good" unless you do it yourself. The cutting board is my
+                        palette, your plate is my canvas.  I use the recipes I grew up with and continue to 
+                        add to my collection.  I am quite fond of Italian and Vietnamese cuisine.  
+                    </aritcle>
+
+                   
+                </div>
+
+               
+
+            </div>
+        </div>
+        
+   
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+    </body>
+</html>
