@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 
 });
 
-router.get('/experience', (req, res) => {
+router.get('/work_experience', (req, res) => {
     res.render('work_experience')
 });
 
