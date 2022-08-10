@@ -1,0 +1,12 @@
+actors:  
+    artist:  
+        use case:
+            upload their work:
+                artist logs in, navigates to showcase
+            attract followers 
+        find other artists for collab
+    new user:  
+        use case:
+            see popular highlights:
+            explore genres
+            explore and follow artists
