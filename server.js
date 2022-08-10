@@ -12,7 +12,7 @@ app.use('/', route);
 
 mongoose.connect("mongodb+srv://aaoro:amanacity@cluster0.uuofk7n.mongodb.net/portfolioDB", {useNewURLParser: true, useUnifiedTopology: true})
     .then( () => {
-        app.listen(3000, () => {
+        app.listen((process.env.PORT || 3000) , () => {
             console.log('listening on 3000');
         })
     })
